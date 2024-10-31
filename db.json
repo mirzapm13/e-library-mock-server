@@ -1,0 +1,181 @@
+{
+    "posts": [
+      {
+        "id": "1",
+        "title": "a title",
+        "views": 100
+      },
+      {
+        "id": "2",
+        "title": "another title",
+        "views": 200
+      }
+    ],
+    "comments": [
+      {
+        "id": "1",
+        "text": "a comment about post 1",
+        "postId": "1"
+      },
+      {
+        "id": "2",
+        "text": "another comment about post 1",
+        "postId": "1"
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "user": [
+      {
+        "nama": "Admin",
+        "email": "admin@galeri24.co.id",
+        "status": false,
+        "id": "1df5"
+      },
+      {
+        "nama": "Direksi",
+        "email": "direksi@galeri24.co.id",
+        "status": true,
+        "id": "09cc"
+      },
+      {
+        "id": "5503",
+        "nama": "Mrza",
+        "email": "mirzamail@mail.com",
+        "password": "testpass",
+        "nik": "123",
+        "jabatan": "1",
+        "department": "2",
+        "status": true,
+        "role": [
+          {
+            "label": "Admin",
+            "value": "1"
+          },
+          {
+            "label": "Direksi",
+            "value": "2"
+          }
+        ]
+      }
+    ],
+    "jabatan": [
+      {
+        "nama": "Admin",
+        "id": "1"
+      },
+      {
+        "nama": "Direksi",
+        "id": "2"
+      }
+    ],
+    "department": [
+      {
+        "nama": "IT",
+        "id": "1"
+      },
+      {
+        "nama": "HR",
+        "id": "2"
+      }
+    ],
+    "role": [
+      {
+        "nama": "Admin",
+        "id": "1"
+      },
+      {
+        "nama": "Direksi",
+        "id": "2"
+      }
+    ],
+    "data" : [
+      { "id": 1, "name": "Dashboard", "parent": null },
+      { "id": 2, "name": "Settings", "parent": 1 },
+      { "id": 3, "name": "Profile", "parent": 1 },
+      { "id": 4, "name": "Security", "parent": 3 },
+      { "id": 5, "name": "Reports", "parent": 3 },
+      { "id": 6, "name": "Logs", "parent": null }
+    ],
+  
+    "menus": [
+      {
+        "id": 1,
+        "name": "Dashboard",
+        "path": "/",
+        "order": "1",
+        "icon": "pi pi-fw pi-home",
+        "status": 1,
+        "parentId": null
+      },
+      {
+        "id": 2,
+        "name": "Menu",
+        "path": "/menu",
+        "order": "2",
+        "icon": "pi pi-fw pi-cog",
+        "status": 1,
+        "parentId": null,
+        "children" : [
+          {
+            "id": 3,
+            "name": "Master Menu",
+            "path": "/menu",
+            "order": "1",
+            "icon": "pi pi-fw pi-cog",
+            "status": 1,
+            "parentId": 2
+          },
+          {
+            "id": 4,
+            "name": "New Menu",
+            "path": "/menu/new",
+            "order": "1",
+            "icon": "pi pi-fw pi-cog",
+            "status": 1,
+            "parentId": 2
+          }
+        ]
+      }
+    ],
+  
+    "menu-settings": [
+      {
+        "id": 1,
+        "name": "Dashboard",
+        "path": "/",
+        "order": "1",
+        "icon": "pi pi-fw pi-home",
+        "status": 1,
+        "parentId": null
+      },
+      {
+        "id": 2,
+        "name": "Menu",
+        "path": "/menu",
+        "order": "2",
+        "icon": "pi pi-fw pi-cog",
+        "status": 1,
+        "parentId": null
+      },
+      {
+        "id": 3,
+        "name": "Master Menu",
+        "path": "/menu",
+        "order": "1",
+        "icon": "pi pi-fw pi-cog",
+        "status": 0,
+        "parentId": 2
+      },
+      {
+        "id": 4,
+        "name": "New Menu",
+        "path": "/menu/new",
+        "order": "2",
+        "icon": "pi pi-fw pi-cog",
+        "status": 0,
+        "parentId": 2
+      }
+    ]
+  }
